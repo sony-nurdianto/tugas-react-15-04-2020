@@ -59,31 +59,31 @@ class Home extends Component {
                       <div className="container">
                           <div className="row justify-content-md-center">
                               <div className="col-sm-6">
-                                <img src={Img} alt="none"/>
-                                <div className="card card-x">
+                                <div className="card ">
+                                        <img src={Img} alt="none"/>
                                     <div className="card-body">
                                         <div className="form-group">
-                                            <Field type="text" claseName="form-control" name="nama" placeholder="nama"/>
+                                            <Field type="text" className="form-control" name="nama" placeholder="nama"/>
                                             <ErrorMessage name="nama"/>
                                         </div>
                                         <div className="form-group">
-                                            <Field type="text" claseName="form-control" name="ttl" placeholder="born"/>
+                                            <Field type="text" className="form-control" name="ttl" placeholder="born"/>
                                             <ErrorMessage name="ttl"/>
                                         </div>
                                         <div className="form-group">
-                                            <Field type="text" claseName="form-control" name="wafat" placeholder="died"/>
+                                            <Field type="text" className="form-control" name="wafat" placeholder="died"/>
                                             <ErrorMessage name="wafat"/>
                                         </div>
                                         <div className="form-group">
-                                            <Field type="text" claseName="form-control" name="description" placeholder="description"/>
+                                            <Field type="text" className="form-control" name="description" placeholder="description"/>
                                             <ErrorMessage name="description"/>
                                         </div>
                                         <div className="form-group">
-                                            <Field type="text" claseName="form-control" name="establishment" placeholder="establishment"/>
+                                            <Field type="text" className="form-control" name="establishment" placeholder="establishment"/>
                                             <ErrorMessage name="establishment"/>
                                         </div>
                                         <div className="form-group">
-                                            <Field type="text" claseName="form-control" name="imgUrl" placeholder="imageUrl"/>
+                                            <Field type="text" className="form-control" name="imgUrl" placeholder="imageUrl"/>
                                             <ErrorMessage name="imgUrl"/>
                                         </div>
                                         <button className="btn btn-outline-primary" type="submit" disabled={formProps.isSubmitting}>
